@@ -1,0 +1,282 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Tipografias */
+
+/* Fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+/* Acomodar Header , logo mas barra de nvegacion */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(102, 102, 102), grey);
+    flex-wrap: wrap;
+    min-height: 20vh;
+}
+
+
+
+.header img{
+    width: 100px;
+}
+
+
+
+/* Menu hamburguesa */
+
+.nav-link a:hover{
+    color: black;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    padding-right: 9px;
+}
+
+.navbar-toggler{
+    border: none !important;
+
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+} 
+
+.nav-item a:hover{
+    color: black;
+}
+
+
+
+
+/* Main */
+
+/* Titulos y parrafo */
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: large;
+}
+
+.main{
+    min-height: 70vh;
+    background-image: linear-gradient(to bottom, rgb(95, 95, 95), rgb(204, 204, 204));
+}
+
+.banner img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.titulo-principal{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Parrafo-Inicial{
+    text-align: center;
+    font-size: medium;
+}
+
+.imagenes-centrales{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.imagenes-centrales img{
+    width: 300px;
+}
+
+/* Pagina Productos */
+
+
+.venta-productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 8px;
+    cursor: default;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
+    transform: translateY(-5%)
+}
+
+.card img{
+    background-color: rgba(0, 255, 106, 0.704);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: contain;
+}
+
+.card-text{
+    text-align: center;
+}
+
+/* pagina clases */
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr) ;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+    "horaios Lunes Martes Miercoles Jueves Viernes Sabado"
+    "10a11 boxeo boxeo boxeo boxeo boxeo boxeo"
+    "11a12 boxeo boxeo boxeo boxeo boxeo"
+    "15a16 boxeo boxeo boxeo boxeo boxeo"
+    "16a17 boxeo boxeo boxeo boxeo boxeo"
+    "18a19 boxeo boxeo boxeo boxeo boxeo"
+    "19a20 boxeo boxeo boxeo boxeo boxeo"
+    "20a21 boxeo boxeo boxeo boxeo boxeo"
+    "21a22 boxeo boxeo boxeo boxeo boxeo"
+    ;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: 600px;
+    padding-bottom: 10px;
+    margin:auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.362);
+}
+.diasyhorarios{
+    display: flex;
+    height: 60px;
+    width: 80px;
+    color: white;
+    border: 1px solid black;
+    background-color: rgba(0, 255, 106, 0.704);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    margin: 2px;
+}
+
+
+/* Pagina Contacto */
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+.formulario{
+    display: flex;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+
+/* Pagina Quienes Somos */
+.h1-profesores{
+    padding: 15px;
+    color: white;
+}
+
+.quienes-somos{
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+.alan-mariano{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.parrafo-profesores h2{
+    padding-bottom: 25px;
+    min-width: 60px;
+}
+.profesores img{
+    margin: 50px;
+    width: 300px;
+}
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 105, 99);
+    min-height: 10vh;
+}
+
+.footer img{
+    width: 60px;
+    
+}
+
+.redes {
+    display: flex;
+    width: 25vw;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.redes a:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
+}
+
+.parrafo-final {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vh;
+}
+
+
+/* Mobile last */
+@media (max-width: 700px){
+    .header{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1080px){
+    .banner {
+        display: inline-block;
+    }
+}
