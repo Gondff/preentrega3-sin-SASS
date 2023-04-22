@@ -187,25 +187,41 @@ p{
 
 
 /* Pagina Contacto */
-
-.contacto{
+.falso-body{
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
     align-items: center;
     justify-content: center;
-    min-width: 100%;
-}
-.formulario{
-    display: flex;
-}
-.inputs{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
 }
 
+.form{
+    padding: 50px 5px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.contactanos{
+    color: white;
+    font: 30px;
+    font-weight: bold;
+}
+
+.etiquetas{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.inputs{
+    padding: 17px 25px;
+    border-radius: 25px;
+       
+}
 
 
 /* Pagina Quienes Somos */

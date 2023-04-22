@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconos fontawesome -->
+    <script src="https://kit.fontawesome.com/43206bcc13.js" crossorigin="anonymous"></script>
     <!-- Link de BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -54,32 +56,31 @@
 
     <main class="main">
 
-        <section class="contacto">
-            <h1>Comunicate con Equipo SIMAL</h1>
-            <p>Dejanos tu email y te mantemos al tanto de todas las novedades del gimnasio</p>
-            <div class="formulario">
-                <form action="#" method="get">
-                    <div class="inputs">
-                        <div>
-                            <input type="text" placeholder="Nombre" name="nombre">
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Apellido" name="apellido">
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Email" name="email">
-                        </div>
-                        <div>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="5"
-                                placeholder="dejanos tu mensaje"></textarea>
-                        </div>
+        <section class="falso-body">
+            <form class="form">
+                <h2 class="contactanos">Contactanos</h2>
 
-                        <input type="submit">
-                    </div>
-                </form>
-            </div>
+                <div class="grupo">
+
+                    <label class="etiquetas" for="nombre"><i class="fa-solid fa-user"></i></label>
+                    <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+                    <label class="etiquetas" for="telefono"><i class="fa-solid fa-phone"></i></label>
+                    <input class="inputs" type="tel" name="telefono" id="telefono" placeholder="Telefono">
+
+                    <label class="etiquetas" for="Email"><i class="fa-solid fa-envelope"></i></label>
+                    <input class="inputs" type="email" name="email" id="email" placeholder="Email">
+
+                    <label class="etiquetas" for="text"><i class="fa-solid fa-comment"></i></i></label>
+                    <textarea class="inputs"  name="mensaje" id="mensaje" cols="30" rows="5"
+                        placeholder="Dejanos un comentario"></textarea>
+
+
+
+
+                </div>
+            </form>
         </section>
-
 
 
     </main>
