@@ -69,8 +69,7 @@ p{
 
 .negrita{
     font-weight: bold;
-    font-size: large;
-    color: black;
+    font-size: large;;
 }
 
 .main{
@@ -195,15 +194,11 @@ p{
 
 .p-contacto{
     display: flex;
-    font-size: medium;
+    font-size: large;
     height: 400px;
     width: 400px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-.verde{
-    color: #00bb2d;
-}
-
 .form{
     padding: 50px 5px;
     box-shadow: 0 0 20px rgba(0,0,0, 0.2);
@@ -244,7 +239,7 @@ p{
 
 .quienes-somos{
     text-align: center;
-    color: white;
+    color: black;
     padding: 20px;
  }
 .alan-mariano{
@@ -296,6 +291,12 @@ p{
 @media (max-width: 700px){
     .header{
         justify-content: center;
+    }
+    .p-contacto{
+        display: none;
+    }
+    .alan-mariano{
+        flex-direction: row;
     }
 }
 
