@@ -22,8 +22,6 @@
     min-height: 20vh;
 }
 
-
-
 .header img{
     width: 100px;
 }
@@ -72,6 +70,7 @@ p{
 .negrita{
     font-weight: bold;
     font-size: large;
+    color: black;
 }
 
 .main{
@@ -191,7 +190,18 @@ p{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.p-contacto{
+    display: flex;
+    font-size: medium;
+    height: 400px;
+    width: 400px;
+    color: white;
+}
+.verde{
+    color: #00bb2d;
 }
 
 .form{
@@ -272,10 +282,6 @@ p{
     width: 25vw;
     justify-content: space-evenly;
     margin-top: 3vh;
-}
-
-.redes a:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.919);
 }
 
 .parrafo-final {
