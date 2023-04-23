@@ -244,9 +244,11 @@ p{
  }
 .alan-mariano{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     margin: 10px;
+
 }
 .parrafo-profesores h2{
     padding-bottom: 25px;
@@ -296,6 +298,7 @@ p{
         display: none;
     }
     .alan-mariano{
+        display: flex;
         flex-direction: row;
     }
 }
